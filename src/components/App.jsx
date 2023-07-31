@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import ContactForm from './ContactForm/ContactForm';
-import ContactList from './ContactList/ContactList';
-import Filter from './Filter/Filter';
-import { Container, Title, Heading2, Text } from './App.styled';
+import ContactForm from './phoneBook/ContactForm/ContactForm';
+import ContactList from './phoneBook/ContactList/ContactList';
+import Filter from './phoneBook/Filter/Filter';
+import {
+  Container,
+  Title,
+  Heading2,
+  Text,
+} from './phoneBook/styles/App.styled';
 import PropTypes from 'prop-types';
 
 class App extends Component {

@@ -6,7 +6,7 @@ import {
   ContactName,
   ContactNumber,
   Button,
-} from './ContactList.styled';
+} from '../styles/ContactList.styled';
 
 function ContactItem({ contact, deleteContact }) {
   const handleDelete = () => {

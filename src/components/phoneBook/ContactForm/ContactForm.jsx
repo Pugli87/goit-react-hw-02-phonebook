@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
 import Notiflix from 'notiflix';
-import { Form, Input, Button, Text } from './ContactForm.styled';
+import { Form, Input, Button, Text } from '../styles/ContactForm.styled';
 import PropTypes from 'prop-types';
 
 class ContactForm extends Component {

@@ -36,7 +36,12 @@ export const Button = styled.button`
   text-transform: capitalize;
   box-shadow: 0 0 5px gray;
   &:hover {
-    background-color: rgb(61, 129, 200);
+    box-shadow: 0 1px 6px 0 rgb(61, 129, 200);
+    outline: 1px solid rgb(61, 129, 200);
+  }
+  &:focus {
+    box-shadow: 0 1px 6px 0 rgb(61, 129, 200);
+    outline: 1px solid rgb(61, 129, 200);
   }
 `;
 
