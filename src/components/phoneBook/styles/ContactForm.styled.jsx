@@ -17,7 +17,7 @@ export const Input = styled.input`
   border-radius: 6px;
   border: none;
   outline: 0;
-  background-color: #fff;
+  background-color: transparent;
   box-shadow: 0 1px 6px 0 #20212447;
 
   &:focus {
@@ -28,7 +28,7 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   width: 15vw;
-  background-color: white;
+  background-color: transparent;
   border: none;
   padding: 3px;
   font-size: 1 rem;

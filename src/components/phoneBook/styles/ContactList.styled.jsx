@@ -23,12 +23,14 @@ export const Button = styled.button`
   border: none;
   border-radius: 6px;
   text-transform: capitalize;
+  background-color: transparent;
+  box-shadow: 0 1px 6px 0 #20212447;
 
   &:hover {
     box-shadow: 0 1px 6px 0 rgb(61, 129, 200);
     outline: 1px solid rgb(61, 129, 200);
   }
-  
+
   &:focus {
     box-shadow: 0 1px 6px 0 rgb(61, 129, 200);
     outline: 1px solid rgb(61, 129, 200);
