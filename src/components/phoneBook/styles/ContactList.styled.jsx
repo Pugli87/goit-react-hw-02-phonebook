@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const ContInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const ContactItems = styled.li`
   display: flex;
   align-items: center;
