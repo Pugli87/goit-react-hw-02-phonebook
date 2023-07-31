@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  width: 80vw;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin-left: 15px;
+  align-items: center;
+  margin: 0 auto;
 `;
 
 export const Title = styled.h1`
