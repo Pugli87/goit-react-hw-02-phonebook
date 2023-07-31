@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
-  width: 40vw;
+  width: 60vw;
   border: 1px solid black;
   padding: 15px;
   display: flex;
@@ -11,7 +11,7 @@ export const Form = styled.form`
 `;
 
 export const Input = styled.input`
-  width: 20vw;
+  width: 40vw;
   padding: 5px;
   margin-bottom: 30px;
   border-radius: 6px;
@@ -27,7 +27,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  width: 15vw;
+  width: 30vw;
   background-color: transparent;
   border: none;
   padding: 3px;
