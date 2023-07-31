@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {
   Ul,
+  ContInfo,
   ContactItems,
   ContactName,
   ContactNumber,
@@ -15,9 +16,13 @@ function ContactItem({ contact, deleteContact }) {
 
   return (
     <ContactItems>
-      <ContactName>{contact.name}</ContactName>
-      <ContactNumber>{contact.number}</ContactNumber>
-      <Button onClick={handleDelete}>delete</Button>
+      <ContInfo>
+        <ContactName>{contact.name}</ContactName>
+        <ContactNumber>{contact.number}</ContactNumber>
+      </ContInfo>
+      <div>
+        <Button onClick={handleDelete}>delete</Button>
+      </div>
     </ContactItems>
   );
 }
