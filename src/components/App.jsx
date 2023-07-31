@@ -22,8 +22,8 @@ class App extends Component {
   };
 
   static propTypes = {
-    addContact: PropTypes.func.isRequired,
-    deleteContact: PropTypes.func.isRequired,
+    addContact: PropTypes.func,
+    deleteContact: PropTypes.func,
   };
 
   addContact = newContact => {
